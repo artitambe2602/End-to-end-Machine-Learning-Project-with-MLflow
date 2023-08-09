@@ -118,7 +118,8 @@ $env:MLFLOW_TRACKING_PASSWORD="2317f444cb255e05ed3a1809217d02a762d6fa35"
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+    - Save the URI: 868341043313.dkr.ecr.ap-south-1.amazonaws.com/ml_proj
+	
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -152,7 +153,7 @@ $env:MLFLOW_TRACKING_PASSWORD="2317f444cb255e05ed3a1809217d02a762d6fa35"
 
     AWS_SECRET_ACCESS_KEY=
 
-    AWS_REGION = us-east-1
+    AWS_REGION = ap-south-1
 
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
