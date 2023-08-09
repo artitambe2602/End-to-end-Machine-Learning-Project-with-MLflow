@@ -20,33 +20,33 @@
 
 Clone the repository
 
-```bash
-https://github.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow
+```powershell
+https://github.com/artitambe2602/End-to-end-Machine-Learning-Project-with-MLflow/tree/Branch1
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
-```bash
-conda create -n mlproj python=3.8 -y
+```powershell
+python -m venv mlproj
 ```
 
-```bash
-conda activate mlproj
+```powershell
+.\mlproj\Scrips\Activate
 ```
 
 
 ### STEP 02- install the requirements
-```bash
+```powershell
 pip install -r requirements.txt
 ```
 
 
-```bash
+```powershell
 # Finally run the following command
 python app.py
 ```
 
 Now,
-```bash
+```powershell
 open up you local host and port
 ```
 
@@ -63,20 +63,23 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_URI=https://dagshub.com/artitambe2602/End-to-end-Machine-Learning-Project-with-MLflow.mlflow \
+MLFLOW_TRACKING_USERNAME=artitambe2602 \
+MLFLOW_TRACKING_PASSWORD=2317f444cb255e05ed3a1809217d02a762d6fa35 \
 python script.py
 
 Run this to export as env variables:
 
-```bash
+```powershell
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow
+$env:MLFLOW_TRACKING_URI = "https://dagshub.com/artitambe2602/End-to-end-Machine-Learning-Project-with-MLflow.mlflow"
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+#for bash 
+# export MLFLOW_TRACKING_URI=https://dagshub.com/artitambe2602/End-to-end-Machine-Learning-Project-with-MLflow.mlflow 
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+$env:MLFLOW_TRACKING_USERNAME="artitambe2602"
+
+$env:MLFLOW_TRACKING_PASSWORD="2317f444cb255e05ed3a1809217d02a762d6fa35"
 
 ```
 
