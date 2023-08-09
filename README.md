@@ -63,23 +63,22 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/artitambe2602/End-to-end-Machine-Learning-Project-with-MLflow.mlflow \
-MLFLOW_TRACKING_USERNAME=artitambe2602 \
-MLFLOW_TRACKING_PASSWORD=2317f444cb255e05ed3a1809217d02a762d6fa35 \
+<!-- MLFLOW_TRACKING_URI=https://dagshub.com/artitambe2602/End-to-end-Machine-Learning-Project-with-MLflow.mlflow \ -->
+<!-- MLFLOW_TRACKING_USERNAME=artitambe2602 \ -->
+<!-- MLFLOW_TRACKING_PASSWORD=2317f444cb255e05ed3a1809217d02a762d6fa35 \ -->
 python script.py
 
 Run this to export as env variables:
 
 ```powershell
 
-$env:MLFLOW_TRACKING_URI = "https://dagshub.com/artitambe2602/End-to-end-Machine-Learning-Project-with-MLflow.mlflow"
+# $env:MLFLOW_TRACKING_URI = "https://dagshub.com/artitambe2602/End-to-end-Machine-Learning-Project-with-MLflow.mlflow"
 
-#for bash 
-# export MLFLOW_TRACKING_URI=https://dagshub.com/artitambe2602/End-to-end-Machine-Learning-Project-with-MLflow.mlflow 
 
-$env:MLFLOW_TRACKING_USERNAME="artitambe2602"
 
-$env:MLFLOW_TRACKING_PASSWORD="2317f444cb255e05ed3a1809217d02a762d6fa35"
+# $env:MLFLOW_TRACKING_USERNAME="artitambe2602"
+
+# $env:MLFLOW_TRACKING_PASSWORD="2317f444cb255e05ed3a1809217d02a762d6fa35"
 
 ```
 
