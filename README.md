@@ -117,7 +117,7 @@ Run this to export as env variables:
 
 	
 ## 3. Create ECR repo to store/save docker image
-     Save the URI: 868341043313.dkr.ecr.ap-south-1.amazonaws.com/mlproj 
+     Save the URI: 868341043313.dkr.ecr.ap-south-1.amazonaws.com/mlproj
 	
 
 	
