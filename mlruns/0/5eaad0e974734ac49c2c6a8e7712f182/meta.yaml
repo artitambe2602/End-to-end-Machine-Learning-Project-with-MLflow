@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/BCM5/DVC_CML/CI_CD_CT/End-to-end-Machine-Learning-Project-with-MLflow/mlruns/0/5eaad0e974734ac49c2c6a8e7712f182/artifacts
+end_time: 1691991674389
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5eaad0e974734ac49c2c6a8e7712f182
+run_name: capable-colt-781
+run_uuid: 5eaad0e974734ac49c2c6a8e7712f182
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691991669876
+status: 3
+tags: []
+user_id: artit
